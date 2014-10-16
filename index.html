@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<head>
+/*<script src="/assets/jquery.js"></script>*/
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+<style>
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+  background-color: hsl(120,60%,70%);
+}
+div {
+  height: 400px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+}
+h1 {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 75px;
+  color: #aaaaaa;
+  margin: 50px 0 0 0;
+}
+h2 {
+  text-align: center;
+  color: #bbbbbb;
+  margin: 0px 0 70px 0;
+}
+p {
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 80px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+
+small {
+  opacity: 1;
+}
+
+.show-description p {
+  height: 150px;
+}
+
+.show-description small {
+  opacity: 1;
+}
+
+.first{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdQcUFLOuuN4lW6i6ueIr2vRX25ajzDUV2SC4d2j06sXLo3BcB");
+}
+.second{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1gD-cEdXX-QL_gRvZ5kt7yhHGk4-je4AvaERXKavZgcPMPws4nA");
+}
+.third{
+  background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ3D-uoinYoiSp8cBi7CgfJonT0ZCVzBqTcAkCnEupgizPnvmxeWQ");
+}
+.price {
+  float: right;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+  }
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  small {
+    font-size: 16px;
+  }
+}
+
+</style>
+
+</head>
+
+<body>
+<h1>Guiti's Awesome website</h1>
+<h2>a brave attempt</h2>
+<div class="first">
+  <p>PROBLEMS <span class="price">Many</span><br />
+  <small>Problems with sublime and including google doc instead of GA jpeg files. Also problems with displaying jpeg files from my computer. </small></p>
+</div>
+
+<div class="second">
+  <p>OPPORTUNITIES <span class="price">More</span><br />
+  <small>Learned a little HTML, a little CSS, a little Javascript.  Enough to get myself into trouble.</small></p>
+</div>
+  
+<div class="third">
+  <p>NEXT <span class="price">WhereToStart</span><br />
+  <small>Improving my skills in html, css and javascript!! I like dash but I think a better estimate of what it takes to do the excercises would help procastinators like me</small></p>
+</div>
+
+/*<script>
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
+*/
+</body>
